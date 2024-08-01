@@ -9,7 +9,7 @@ import { setShowAnswerPage } from '../Slices/navigationSlice';
 import { useNavigate } from 'react-router-dom';
 
 export default function ButtonSubmit() {
-    const [dataToSend, setDataToSend] = useState({});
+    const [dataToSend] = useState({});
     const dispatch = useDispatch();
     const navigate = useNavigate();
 

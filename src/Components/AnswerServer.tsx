@@ -2,7 +2,7 @@ import Card from '@mui/joy/Card';
 import Typography from '@mui/joy/Typography';
 import Box from '@mui/joy/Box';
 import Button from '@mui/joy/Button';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { KeyboardArrowRight } from '@mui/icons-material';
@@ -17,7 +17,7 @@ export default function AnswerServer() {
   const answer = useSelector((state: any) => state.dataServerSlice.data);
   const navigate = useNavigate();
   
-  const handleButtonClick = (event: React.MouseEvent<HTMLButtonElement>,) => {
+  const handleButtonClick = () => {
     console.log(`Button clicked!${clickButton.numGreeting}`); // בדוק את הלחיצה
         if (clickButton.numGreeting < 3) {
           setClickButton((prevState) => ({
