@@ -1,0 +1,24 @@
+{
+    "dataInputs":[
+        {
+            "label":"the Event",
+            "placeholder":"Holidays"
+        },
+        {
+            "label":"Detail",
+            "placeholder":"Sukkot, Hanukkah, Purim"
+        },
+        {
+            "label":"type of writing",
+            "placeholder":"Poem, Short, Long, Letter"
+        },
+        {
+            "label":"Choose atmosphere",
+            "placeholder":"Happy, Humorous, Funny"
+        },
+        {
+            "label":"Choose Style",
+            "placeholder":"Classic, Simple"
+        }
+    ]
+}
